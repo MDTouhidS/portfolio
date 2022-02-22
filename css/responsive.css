@@ -1,0 +1,369 @@
+@media(min-width: 320px) and (max-width:575px){
+
+
+    .main_menu .navbar-brand img {
+        width: 67%;
+        height: 69%;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li a::after {
+       
+        background: transparent;
+    
+    }
+    #banner-part {
+        padding: 0px;
+    }
+    #banner-part .text h2 {
+        font-size: 28px;
+        margin-left: 75px;
+    }
+    #banner-part .text p {
+        font-size: 16px;
+        margin-left: 73px;
+    }
+    #banner-part .text {
+   
+        margin-top: 88px;
+    }
+    #banner-part .text a {
+        padding: 10px;
+        background: #000;
+        color: #fff;
+        margin: 12px 13px;
+    }
+    #banner-part .img .hero img {
+        height: 443px;
+    }
+    #about-part .about {
+        width: 18%;
+        text-align: center;
+        margin-left: -23px;
+    }
+    #about-part {
+        margin-top: -44px;
+     
+    }
+    #about-part .about .text p {
+      
+        width: 244px;
+    }
+    #skill-part .img {
+        text-align: left;
+        margin-left: -35px;
+    }
+    #skill-part .skill {
+        width: 21%;
+        margin-left: -75px;
+    }
+    #do-part .item {
+        width: 22%;
+        padding: 20px;
+    }
+
+    #testi-part .testi-slider .overlay .item {
+     
+        margin: 18px 0;
+    }
+
+    #testi-part .testi-slider .overlay .item p {
+  
+        width: 309px;
+    }
+    #testi-part .slick-dots li button {
+       
+        display: none;
+    }
+
+    #project-part .item .img img {
+        width: 300px;
+        height: 300px;
+    }
+    #project-part .item .img .overlay i:hover{
+        display: none;
+    }
+    #form-part {
+        margin-top: 26px;
+    }
+    #form-part .item {
+        margin-top: 15px;
+        text-align: left;
+     
+    }
+    #form-part textarea {
+        width: 23%;
+        height: 145px;
+        margin-top: 18px;
+    }
+
+    #form-part input {
+        width: 23%;
+    }
+    #form-part .button {
+        text-align: left;
+        margin: 10px 77px;
+    }
+    /* ========================= */
+
+
+}
+
+
+
+
+@media(min-width: 576px) and (max-width:767px){
+
+
+    .main_menu .navbar-brand img {
+        width: 67%;
+        height: 69%;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li a::after {
+       
+        background: transparent;
+    
+    }
+    #banner-part .text {
+        width: 58%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #banner-part .text a {
+        padding: 8px;
+        font-size: 13px;
+        
+        margin-bottom: 15px;
+    }
+    #about-part .about {
+        width: 85%;
+    }
+    #about-part .about .text p {
+        width: 428px;
+    }
+    #about-part .about .button a {
+        padding: 11px;
+    }
+    #skill-part .img {
+        text-align: center;
+        margin-left: -169px;
+    }
+    #skill-part .skill {
+        width: 70%;
+        padding: 0px;
+    }
+    #do-part .item {
+        width: 100%;
+        padding: 8px;
+    }
+
+    
+
+    #project-part .item .img img {
+        width: 244px;
+        height: 294px;
+    }
+    #project-part .item .img .overlay i {
+        top: 71%;
+    }
+    #form-part {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    /* ========================= */
+
+
+}
+
+
+
+
+
+@media(min-width: 768px) and (max-width:991px){
+
+
+  
+    .navbar-nav .nav-link {
+        text-align: center;
+        color: #fff !important;
+        background: #000;
+    }
+    nav ul li a::after {
+       
+        background: transparent;
+    
+    }
+    .col-md-6 {
+        width: 40%;
+    }
+    #banner-part .img {
+      
+        margin-top: 71px;
+    }
+    #banner-part .text {
+        width: 65%;
+        text-align: center;
+        margin-top: 195px;
+    }
+    #banner-part .text a {
+        padding: 10px;
+        font-size: 9px;
+        color: #fff;
+        background: #000;
+    }
+    #about-part .about .text p {
+        width: 621px;
+    }
+    #skill-part {
+        margin-top: -32px;
+        padding: 51px;
+    }
+    #do-part .item {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #do-part .item p {
+        font-size: 15px;
+    }
+
+    #project-part .item .img img {
+        width: 336px;
+        height: 300px;
+    }
+    #project-part .item .img .overlay h2 {
+       
+        font-size: 15px;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    #form-part .button button {
+        margin-top: 35px;
+    }
+    /* ========================= */
+
+
+}
+
+@media(min-width: 992px) and (max-width:1199px){
+
+
+  
+  
+    nav ul li a::after {
+        height: 3px;
+        background: #1784a6;
+    }
+    nav ul li .active {
+        color: #1784a6 !important;
+    }
+    .col-md-6 {
+        width: 40%;
+    }
+    #banner-part .text {
+        width: 76%;
+        text-align: left;
+    }
+    #banner-part .text a {
+        padding: 18px;
+        border: 2px solid #000;
+        color: #fff;
+        background: #000;
+        margin-right: 20px;
+    }
+    #about-part .about .text p {
+        width: 621px;
+    }
+    #skill-part {
+        margin-top: -32px;
+        padding: 51px;
+    }
+    #do-part .item {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #do-part .item p {
+        font-size: 15px;
+    }
+
+    #project-part .item .img img {
+        width: 100%;
+        height: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    #form-part .button button {
+        margin-top: 35px;
+    }
+    /* ========================= */
+
+
+}
+
+@media(min-width: 1200px) and (max-width:1399px){
+
+
+  
+  
+    nav ul li a::after {
+        height: 3px;
+        background: #1784a6;
+    }
+    nav ul li .active {
+        color: #1784a6 !important;
+    }
+    .col-md-6 {
+        width: 40%;
+    }
+    #banner-part .text {
+        width: 76%;
+        text-align: left;
+    }
+    #banner-part .text a {
+        padding: 18px;
+        border: 2px solid #000;
+        color: #fff;
+        background: #000;
+        margin-right: 20px;
+    }
+    #about-part .about .text p {
+        width: 621px;
+    }
+    #skill-part {
+        margin-top: -32px;
+        padding: 51px;
+    }
+    #do-part .item {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #do-part .item p {
+        font-size: 15px;
+    }
+
+    #project-part .item .img img {
+        width: 100%;
+        height: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    #form-part .button button {
+        margin-top: 35px;
+    }
+    /* ========================= */
+
+
+}

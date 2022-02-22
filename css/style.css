@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* ==============
+nav part starty
+================= */
+nav{
+    border-bottom: 1px solid #7c663a ;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+nav .navbar-brand img{
+    width: 53%;
+}
+nav ul li a{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(20, 18, 18) !important;
+    transition: .4s;
+    position: relative;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+   color: #1a0be6 !important;
+}
+nav ul li a:after{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fec600;
+    content: "";
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+nav ul li .active{
+    color: #fec600 !important;
+ }
+ nav ul li .active:after{
+    width: 100%;
+}
+/* ==============
+nav part end
+================= */
+/* ==============
+banner part start
+================= */
+#banner-part{
+    padding: 100px;
+    background: rgb(233, 230, 230);
+}
+#banner-part .main{
+    display: flex;
+    
+    margin-left:10px ;
+}
+#banner-part .text{
+   width: 50%;
+   text-align: left;
+   margin-top: 150px;
+
+}
+#banner-part .text h2{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+
+}
+#banner-part .text p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#banner-part .text a{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(15, 14, 14);
+    border: 1px solid #000;
+    margin-left: 7px;
+    transition: .4s;
+}
+#banner-part .text a:hover{
+    background: #000;
+    color: #fff;
+}
+
+#banner-part .img{
+   width: 50%;
+
+}
+#banner-part .img .hero img{
+    height: 500px;
+    border-radius: 4px;
+}
+
+/* ==============
+banner part end
+================= */
+/* ==============
+about part start
+================= */
+#about-part{
+    margin-top: 50px;
+    padding: 50px;
+}
+#about-part .about{
+    width: 100%;
+    text-align: center;
+}
+#about-part .about .text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+#about-part .about .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    width: 589px;
+    margin: 0 auto;
+    margin-top: 10px;
+  text-transform: capitalize;
+}
+#about-part .about .button a{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(7, 6, 6);
+    text-transform: uppercase;
+    background: #000;
+}
+/* ==============
+about part end
+================= */
+/* ==============
+skill part start
+================= */
+#skill-part{
+    margin-top: 50px;
+    padding: 100px;
+    background: rgb(243, 241, 241);
+}
+#skill-part .img{
+    text-align: center;
+}
+#skill-part .img h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+#skill-part .skill{
+    width: 100%;
+    padding: 10px;
+}
+#skill-part .skill .html .proggress{
+    background: rgb(86, 149, 22) !important;
+   
+}
+#skill-part .skill .css .proggress{
+    background: rgb(238, 205, 15) !important;
+}
+#skill-part .skill .js .proggress{
+    background: rgb(59, 14, 207) !important;
+}
+#skill-part .skill .php .proggress{
+    background: rgb(228, 29, 235) !important;
+}
+#skill-part .skill .boostrap .proggress{
+    background: rgb(235, 29, 98) !important;
+}
+/* ==============
+skill part end
+================= */
+
+/* ==============
+do part start
+================= */
+#do-part{
+    background-size: cover;
+    background: url(../images/banner.png) no-repeat center;
+
+    
+}
+#do-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 231, 231,.6);
+    padding: 100px 0;
+}
+#do-part .title{
+    text-align: center;
+}
+#do-part .row{
+    background:#fff;
+    margin-top: 30px;
+}
+
+#do-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#do-part .item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+#do-part .item img{
+    width: 80px;
+    height: 80px;
+
+}
+#do-part .item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+#do-part .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+   text-align: center;
+    color: #000;
+}
+
+/* ==============
+do part end
+================= */
+
+/* ==============
+team part start
+================= */
+#testi-part{
+    margin-top: 100px;
+}
+#testi-part .title{
+    text-align: center;
+}
+#testi-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+#testi-part .testi-slider .banner{
+    background: url(../imges/testimonial.png) no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+  
+}
+#testi-part .testi-slider .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0,.8);
+}
+#testi-part .testi-slider .overlay .item{
+    color: #fff;
+    position: relative;
+    margin: 60px 0;
+}
+#testi-part .testi-slider .overlay .item h2{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 14px;
+    
+    font-family: 'Oswald', sans-serif;
+}
+#testi-part .testi-slider .overlay .item h3{
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    font-size: 14px;
+    
+    font-family: 'Oswald', sans-serif;
+}
+#testi-part .testi-slider .overlay .item p{
+    margin-top: 20px;
+}
+#testi-part .testi-slider .overlay .item .icon{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    color: #e23e38;
+}
+#testi-part .slick-dots li{
+    display: inline-block;
+}
+#testi-part .slick-dots li button{
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: .4s;
+    margin: 10px 5px;
+}
+#testi-part .slick-dots li button:hover{
+    background: #e23e38;
+}
+#testi-part .slick-dots{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-75%);
+}
+
+/* ==============
+team part end
+================= */
+/* ==============
+project part start
+================= */
+#project-part{
+    margin-top: 100px;
+}
+#project-part .title{
+    text-align: center;
+}
+#project-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+#project-part .item{
+   margin-top: 50px;
+}
+#project-part .item .img img{
+    width: 640px;
+    height: 500px;
+}
+#project-part .item .img{
+  position: relative;
+}
+#project-part .item .img .overlay{
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+#project-part .item .img .overlay i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+#project-part .item .img .overlay i:hover{
+    background: #000;
+    color: #fff;
+}
+#project-part .item .img:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+
+#project-part .item .img .overlay h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* ==============
+project part end
+================= */
+/* ==============
+form part start
+================= */
+#form-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ #form-part .title{
+     text-align: center;
+ }
+ #form-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+ }
+ #form-part .item{
+     margin-top: 30px;
+     text-align: center;
+ }
+ #form-part input{
+     border-radius: 3px;
+     padding: 10px;
+     font-size: 25px;
+     color: #000;
+ }
+ #form-part textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 3px ;
+    padding: 10px;
+    resize: none;
+ }
+ #form-part .button{
+     text-align: center;
+ }
+ #form-part .button button{
+    text-transform: uppercase;
+     padding: 5px 20px;
+     font-size: 16px;
+     background: #fff;
+     color: #000;
+     border: 3px solid #000;
+     margin-top: 10px;
+     
+ }
+ #form-part .button button:hover{
+     background: #000;
+     color: #fff;
+ }
+/* ==============
+form part end
+================= */
